@@ -1,0 +1,13 @@
+/* src/components/layout/Footer.css */
+.App-footer {
+  background-color: #fff;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  width: 100%;
+}
+
+.App-footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #343a40;
+}

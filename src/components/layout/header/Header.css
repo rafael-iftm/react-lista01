@@ -1,0 +1,13 @@
+/* src/components/layout/Header.css */
+.App-header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #343a40;
+}

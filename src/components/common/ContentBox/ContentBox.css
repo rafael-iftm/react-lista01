@@ -1,0 +1,25 @@
+/* src/components/common/ContentBox.css */
+.content-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #495057;
+  font-size: 16px;
+}
+
+.content-box:hover {
+  border-color: #007BFF;
+  transform: translateY(-5px);
+}
+
+.content-box:active {
+  transform: translateY(0);
+}
