@@ -1,5 +1,3 @@
-// src/components/sections/InfoSection.jsx
-import React from 'react';
 import InfoBox from '../../common/InfoBox/InfoBox';
 import './InfoSection.css';
 

@@ -1,5 +1,3 @@
-// src/components/Main.jsx
-import React from 'react';
 import InfoSection from '../../sections/InfoSection/InfoSection';
 import ContentSection from '../../sections/ContentSection/ContentSection';
 import './Main.css';

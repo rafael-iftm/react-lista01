@@ -1,5 +1,3 @@
-// src/components/sections/ContentSection.jsx
-import React from 'react';
 import ContentBox from '../../common/ContentBox/ContentBox';
 import './ContentSection.css';
 

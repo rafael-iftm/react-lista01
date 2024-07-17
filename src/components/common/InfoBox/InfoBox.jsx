@@ -1,5 +1,4 @@
-// src/components/common/InfoBox.jsx
-import React from 'react';
+import PropTypes from 'prop-types';
 import './InfoBox.css';
 
 function InfoBox({ text }) {
@@ -9,5 +8,9 @@ function InfoBox({ text }) {
     </div>
   );
 }
+
+InfoBox.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default InfoBox;

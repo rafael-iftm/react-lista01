@@ -1,5 +1,4 @@
-// src/components/common/ContentBox.jsx
-import React from 'react';
+import PropTypes from 'prop-types';
 import './ContentBox.css';
 
 function ContentBox({ text }) {
@@ -9,5 +8,9 @@ function ContentBox({ text }) {
     </div>
   );
 }
+
+ContentBox.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default ContentBox;
