@@ -1,4 +1,5 @@
-import InfoBox from '../../common/InfoBox/InfoBox';
+import Card from '../../common/Card/Card';
+import data from './data.json';
 import './InfoSection.css';
 
 function InfoSection() {
@@ -7,16 +8,9 @@ function InfoSection() {
       <h2>Acesso à Informação</h2>
       <p>Veja dados de transparência e governança</p>
       <div className="info-boxes">
-        {[
-          "PLANO DE DESENVOLVIMENTO INSTITUCIONAL",
-          "PESQUISA PÚBLICA PROCESSOS IFTM",
-          "LICITAÇÕES E CONTRATOS",
-          "RECEITAS E DESPESAS",
-          "DADOS ABERTOS",
-          "TRANSPARÊNCIA E PRESTAÇÃO DE CONTAS",
-          "SERVIDORES",
-          "PERGUNTAS FREQUENTES",
-        ].map(text => <InfoBox key={text} text={text} />)}
+        {data.map(item => (
+          <Card key={item.id} text={item.text} />
+        ))}
       </div>
     </section>
   );
